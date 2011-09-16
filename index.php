@@ -10,7 +10,6 @@
 </head>
 
 <body>
-   <div id="box_header"></div>
    <div id="container">
       <div id="overlay" class="png-fix">
       </div>

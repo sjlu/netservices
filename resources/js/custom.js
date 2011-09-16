@@ -9,21 +9,23 @@
 
 $(function() {
    var backgroundheight = 777;
-   var backgroundheight2 = 777;
+   var backgroundheight2 = 783;
 
    offset = Math.round(Math.floor(Math.random()* backgroundheight));
    offset2 = Math.round(Math.floor(Math.random()* backgroundheight2));
  
 	function scrollbackground() {
-      offset = (offset < 1) ? offset + (backgroundheight - 1) : offset - 1;
-   	$('#container').css("background-position", "50% " + offset + "px");
+      offset = (offset >= backgroundheight2) ? 1 : offset + 1;
+//      offset = (offset < 1) ? offset + (backgroundheight - 1) : offset - 1;
+   	$('#container').css("background-position", "" + offset + "px 50%");
    	setTimeout(function() {
 			scrollbackground();
 		}, 50);
    }
 	function scrollbackground2() {
-  		offset2 = (offset2 < 1) ? offset2 + (backgroundheight2 - 1) : offset2 - 1;
-  		$('#overlay').css("background-position", "50% " + offset2 + "px");
+      offset2 = (offset2 >= backgroundheight2-1) ? 1 : offset2 + 1;
+//  		offset2 = (offset2 < 1) ? offset2 + (backgroundheight2 - 1) : offset2 - 1;
+  		$('#overlay').css("background-position", "" + offset2 + "px 50%");
   		setTimeout(function() {	
          scrollbackground2();
 		}, 100);
