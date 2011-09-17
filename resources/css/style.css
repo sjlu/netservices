@@ -23,8 +23,9 @@ body {
 
 #header_request_box
 {
-   position: absolute;
-   top: 3px; right: 20px;
+   position: relative;
+   margin-top: -103px;
+   margin-left: 500px;
    background: url(../img/header-request-a-call-box.png);
    width: 398px; height: 146px; 
 }
