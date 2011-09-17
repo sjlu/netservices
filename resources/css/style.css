@@ -1,10 +1,20 @@
-.scrolling_container {
+body {
+   margin: 0;
+}
+
+.scrolling
+{
+   border: 1px solid #a9e7f4;
+}
+
+.scrolling_background {
    position:relative;
    width:189px;
    height:110px;
 }
 
 .scrolling_overlay1 {
+   background: url('../img/jquerybox-bubbles-clear-a.png');
    position:absolute;
    top:0;
    left:0;
@@ -13,6 +23,7 @@
 }
 
 .scrolling_overlay2 {
+   background: url('../img/jquerybox-bubbles-clear-b.png');
    position:absolute;
    top:0;
    left:0;
@@ -20,3 +31,9 @@
    height:110px;
 }
 
+.scrolling_bottom {
+   background: #ebf9fc;
+   width: 169px;
+   height: 175px;
+   padding: 15px 10px;
+}
