@@ -2,6 +2,34 @@ body {
    margin: 0;
 }
 
+#header
+{
+   background: url(../img/header-background.png) repeat-x;
+   height: 181px;
+   border-bottom: 1px solid #9a9afe;
+}
+
+.find_out
+{
+   position: absolute;
+   top: 50px;
+   background: url(../img/test.png) no-repeat 0 0;
+   background-repeat: no-repeat;
+   
+   height: 22px; width: 92px;
+   border: 0px;
+}
+
+.find_out:hover, .find_out:focus {
+   background-position: 0 22px;
+}
+
+#jquery_boxes_container
+{
+   background: url(../img/jquery-boxes-background.png) repeat-x;
+   height: 356px;
+}
+
 .scrolling
 {
    border: 1px solid #a9e7f4;
@@ -31,9 +59,16 @@ body {
    height:110px;
 }
 
-.scrolling_bottom {
+.jquery_box_text {
    background: #ebf9fc;
    width: 169px;
-   height: 175px;
+   height: 150px;
    padding: 15px 10px;
+}
+
+.jquery_box_bottom {
+   background: #ebf9fc;
+   height: 22px;
+   padding: 0 8px 5px 0;
+   text-align: right;
 }
