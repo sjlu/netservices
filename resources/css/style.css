@@ -1,5 +1,6 @@
 body {
    margin: 0;
+   min-width: 1024px;
 }
 
 #header
@@ -9,19 +10,61 @@ body {
    border-bottom: 1px solid #9a9afe;
 }
 
+#header_container
+{
+   width: 950px;
+   margin: 0 auto;
+}
+
+#logo
+{
+   margin-top: 50px;
+}
+
+#header_request_box
+{
+   position: absolute;
+   top: 3px; right: 20px;
+   background: url(../img/header-request-a-call-box.png);
+   width: 398px; height: 146px; 
+}
+
+#content
+{
+   min-height: 150px;
+   padding-bottom: 50px;
+}
+
+#footer
+{
+   background: url(../img/footer-background.png) repeat-x;
+   height: 435px;
+}
+
+#footer_container
+{
+   padding-top: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 950px;
+}
+
+#footer_email_us
+{
+   margin-top: -458px;
+   margin-left: auto;
+   margin-right: auto;
+   background: url(../img/footer-email-us.png) no-repeat -13px -13px;
+   width: 1018px; height: 213px;
+}
+
 .find_out
 {
    position: absolute;
    top: 50px;
-   background: url(../img/test.png) no-repeat 0 0;
-   background-repeat: no-repeat;
    
    height: 22px; width: 92px;
    border: 0px;
-}
-
-.find_out:hover, .find_out:focus {
-   background-position: 0 22px;
 }
 
 #jquery_boxes_container
