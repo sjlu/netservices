@@ -146,11 +146,19 @@ label
    padding-left: 30px;
    font-size: 14px;
    color: #646464;
-   margin-top: -458px;
+   margin-top: -505px;
    margin-left: auto;
    margin-right: auto;
    background: url(../img/footer-email-us.png) no-repeat -13px -13px;
    width: 1018px; height: 213px;
+}
+
+#footer_copyright
+{
+   padding-bottom: 20px;
+   font-size: 12px;
+   color: #646464;
+   text-align: center;
 }
 
 .find_out
