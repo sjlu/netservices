@@ -1,6 +1,12 @@
 body {
    margin: 0;
    min-width: 1024px;
+   font-family: Tahoma, Geneva, sans-serif;
+}
+
+img
+{
+   border: none;
 }
 
 #header
@@ -16,6 +22,50 @@ body {
    margin: 0 auto;
 }
 
+#nav
+{
+   width: 1000px;
+   margin-top: -16px; 
+   padding: 0;
+}
+
+#nav li
+{
+   float: left;
+   width: auto;
+   font-size: 14pt;
+   color: #fff;
+   display: inline;
+   padding: 0 20px;
+   margin: 0;
+   text-shadow: 1px 1px 1px #646464;
+   text-transform: uppercase;
+   letter-spacing: -1px;
+}
+
+#nav a
+{
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   padding: 5px 10px;
+   color: #fff;
+   text-decoration: none;
+}
+
+#nav a:hover
+{
+   background-color: #da91b3;
+}
+
+body#home a#home,
+body#products a#products_and_services,
+body#opportunities a#opportunities,
+body#who_we_are a#who_we_are,
+body#contact_us a#contact_us
+{
+   background-color: #da91b3;  
+}
+
 #logo
 {
    margin-top: 50px;
@@ -23,11 +73,44 @@ body {
 
 #header_request_box
 {
+   font-size: 14px;
+   color: #646464;
+   padding: 20px 0 0 30px;
    position: relative;
-   margin-top: -103px;
+   margin-top: -100px;
    margin-left: 500px;
-   background: url(../img/header-request-a-call-box.png);
+   background: url(../img/header-request-a-call-box.png) no-repeat;
    width: 398px; height: 146px; 
+}
+
+input, textarea
+{
+   font: normal 11px/100% Verdana;
+   letter-spacing: 0.1em;
+   background: rgba(255, 255, 255, 0.9);
+   background:-moz-linear-gradient(90deg, #fff, #eee);
+   background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #ff));
+   border: 1px solid #aaa;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-box-shadow: 0 0 3px #aaa;
+   -webkit-box-shadow: 0 0 3px #aaa;
+   padding: 4px 6px 4px 6px;
+}
+
+input:focus, textarea:focus
+{
+   border-color: #093c75;
+   -moz-box-shadow: 0 0 3px #0459b7;
+   -webkit-box-shadow: 0 0 3px #0459b7;
+   outline: none;
+}
+
+label
+{
+   color: #646464;
+   font-size: 10pt;
+   margin-right: 15px;
 }
 
 #content
@@ -42,6 +125,13 @@ body {
    height: 435px;
 }
 
+#footer_sitemap
+{
+   color: #4c4c4d;
+   font-size: 12pt;
+   letter-spacing: 0px;
+}
+
 #footer_container
 {
    padding-top: 200px;
@@ -52,6 +142,10 @@ body {
 
 #footer_email_us
 {
+   padding-top: 25px;
+   padding-left: 30px;
+   font-size: 14px;
+   color: #646464;
    margin-top: -458px;
    margin-left: auto;
    margin-right: auto;
@@ -66,6 +160,11 @@ body {
    
    height: 22px; width: 92px;
    border: 0px;
+}
+
+.find_out a
+{
+   text-decoration: none;   
 }
 
 #jquery_boxes_container
@@ -108,6 +207,7 @@ body {
    width: 169px;
    height: 150px;
    padding: 15px 10px;
+   font-size: 11pt;
 }
 
 .jquery_box_bottom {

@@ -9,12 +9,25 @@
    </script>
 </head>
 
-<body>
+<body id="home">
    <div id="header">
       <div id="header_container">
          <img id="logo" src="resources/img/logo.png" />
          <div id="header_request_box">
+            <b>REQUEST A CALL</b>
+            <form id="request_call" action="request_call.php" method="post" style="margin-left: 10px; margin-top: 5px;">
+               <label>Name:</label><input type="Text" name="email" id="email" style="width: 200px;" /><br />
+               <label>Phone #:</label><input type="Text" name="email" id="email" style="width: 185px;" /><br />
+               <label>Email:</label><input type="Text" name="email" id="email" style="width: 200px;" /><br />
+            </form>
          </div>
+         <ul id="nav">
+            <li><a id="home" href="index.html">Home</a></li>
+            <li><a id="products_and_services" href="#">Products and Services</a></li>
+            <li><a id="opportunities" href="#">Opportunities</a></li>
+            <li><a id="who_we_are" href="#">Who we are</a></li>
+            <li><a id="contact_us" href="#">Contact us</a></li>
+         </ul>
       </div>
    </div>
    <div id="jquery_boxes_container">
@@ -30,7 +43,7 @@
             Already have a Web site? Our additional services can enhance it so it works even better.<br />
          </div>
          <div class="jquery_box_bottom">
-            <img src="resources/img/jquerybox-1green-button-findout-a.png" />
+            <a href="#"><img src="resources/img/jquerybox-1green-button-findout-a.png" /></a>
          <div> 
       </td>
 
@@ -98,12 +111,12 @@
 
    <div id="footer">
       <div id="footer_container">
-         <table border="0" width="100%" cellspacing="10px">
+         <table id="footer_sitemap" border="0" width="100%" cellspacing="10px">
          <tr>
-            <td width="20%" valign="top">
+            <td width="15%" valign="top">
                Home<br />Blog<br />Sitemap<br />
             </td>
-            <td width="20%" valign="top">
+            <td width="30%" valign="top">
                Services for Existing Web Sites<br />
                Online Repuation Management<br />
                Social Media Management<br />
@@ -118,12 +131,26 @@
                Who We Are<br />
                Why Choose NetServices<br />
             </td>
-            <td width="20%" valign="top">
+            <td width="15%" valign="top">
                Contact Us <br />
             </td>
          </tr>
          </table>
       </div>
    </div>
-   <div id="footer_email_us"></div>
+   <div id="footer_email_us">
+      <b>Email Us</b>
+      <form id="email_us" action="email_us.php" method="post" style="margin-top: 5px" width="100%">
+         <table border="0"><tr>
+            <td>
+               <label>Full Name:</label><input type="text" name="email" id="email" style="width: 320px;" /><br />
+               <label>Phone #:</label><input type="text" name="email" id="email" style="width: 330px;" /><br />
+               <label>Email Address:</label><input type="text" name="email" id="email" style="width: 300px;" /><br />
+            </td>
+            <td>
+            <textarea name="body" cols="80" rows="6"></textarea>
+            </td>
+         </tr></table>
+      </form>
+   </div>
 </body>	
