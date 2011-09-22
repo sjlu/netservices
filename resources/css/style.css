@@ -25,7 +25,7 @@ img
 #nav
 {
    width: 1000px;
-   margin-top: -16px; 
+   margin-top: -20px; 
    padding: 0;
 }
 
@@ -75,9 +75,9 @@ body#contact_us a#contact_us
 {
    font-size: 14px;
    color: #646464;
-   padding: 20px 0 0 30px;
+   padding: 15px 0 0 30px;
    position: relative;
-   margin-top: -100px;
+   margin-top: -92px;
    margin-left: 500px;
    background: url(../img/header-request-a-call-box.png) no-repeat;
    width: 398px; height: 146px; 
@@ -146,10 +146,10 @@ label
    padding-left: 30px;
    font-size: 14px;
    color: #646464;
-   margin-top: -505px;
+   margin-top: -507px;
    margin-left: auto;
    margin-right: auto;
-   background: url(../img/footer-email-us.png) no-repeat -13px -13px;
+   background: url(../img/footer-email-us.png) no-repeat -13px 0px;
    width: 1018px; height: 213px;
 }
 
