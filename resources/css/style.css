@@ -85,7 +85,7 @@ body#contact_us a#contact_us
 
 input, textarea
 {
-   font: normal 11px/100% Verdana;
+   font: normal 11px/100%;
    letter-spacing: 0.1em;
    background: rgba(255, 255, 255, 0.9);
    background:-moz-linear-gradient(90deg, #fff, #eee);
