@@ -117,6 +117,20 @@ label
    padding: 20px 20px 50px 20px;
 }
 
+#content h1
+{
+   font-size: 22px;
+   margin: 0;
+   margin-left: -10px;
+   margin-bottom: -10px;
+   padding: 0;   
+}
+
+#content p
+{
+
+}
+
 #footer
 {
    background: url(../img/footer-background.png) repeat-x;
