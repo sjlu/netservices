@@ -1,7 +1,6 @@
 <?php include_once 'include/header.html'; ?>
-<body id="home">
+<body id="who-we-are">
 	<?php include_once 'include/top.html'; ?>
-   <?php include_once 'include/boxes.html'; ?>
 	<div id="content">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor pharetra tortor, at rutrum magna facilisis ut. Praesent laoreet leo non metus viverra convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi tellus neque, gravida sed fringilla sit amet, ultrices sed nunc. Morbi quis ligula sit amet risus porttitor dignissim. Proin pulvinar hendrerit tincidunt. Maecenas mattis nulla elementum magna dignissim ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam pretium sodales urna eget porttitor. Sed risus purus, pretium eget volutpat nec, pretium vel diam. Sed sit amet sem dui.
 
