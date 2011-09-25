@@ -1,4 +1,5 @@
 <?php include_once 'include/header.html'; ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <body id="home">
 	<?php include_once 'include/top.html'; ?>
    <?php include_once 'include/boxes.html'; ?>
@@ -14,4 +15,5 @@ Curabitur ac massa diam, vitae interdum leo. Mauris ut lorem ante, quis suscipit
 Praesent ac mauris eget lectus iaculis tincidunt a a arcu. Donec vitae neque ut odio fringilla accumsan. Pellentesque venenatis mollis mi, et dictum urna venenatis id. Vestibulum non eros enim. Vivamus vel turpis ut lorem eleifend commodo. Vestibulum tristique ligula non massa egestas a congue neque mattis. Aliquam eu orci nisl, non venenatis sem. Curabitur libero augue, dapibus eu tempus eget, ornare vitae dolor. Ut vitae consequat erat. Duis condimentum, augue a malesuada auctor, velit quam condimentum tellus, eu pretium lorem lectus nec nisi. Nulla commodo pretium dignissim. Etiam sodales tristique rhoncus. Cras ullamcorper, diam nec tincidunt placerat, quam velit porttitor sem, in porta lacus dui sit amet nulla. Suspendisse vel arcu id quam cursus lobortis at tempus lorem. Praesent a ligula ut risus convallis tristique nec et nisl.
    </div>
 	<?php include_once 'include/footer.html'; ?>
-</body>	
+</body>
+</html>	
