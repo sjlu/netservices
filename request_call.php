@@ -14,7 +14,7 @@ $mail->FromName = "NetServices Web-Response Team";
 $mail->Subject = "Your Call Request Was Submitted";
 $body = "Dear Valued Client,\n\n";
 $body .= "Your call request has been sent. Someone should be contacting you soon.\n";
-$body .= "If this is urgent, you can always call us at 1-724-NET-SERV (1-724-638-7378\n\n";
+$body .= "If this is urgent, you can always call us at 1-724-NET-SERV (1-724-638-7378)\n\n";
 $body .= "Regards,\nThe NetServices Web-Response Team";
 
 $mail->Body = $body;

@@ -167,6 +167,11 @@ button:focus
    line-height: 22px;
 }
 
+#footer_sitemap a
+{
+   text-decoration: none;
+}
+
 #footer_container
 {
    padding-top: 200px;
