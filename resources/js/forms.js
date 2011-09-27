@@ -76,7 +76,8 @@ function processCallRequest(response)
    if (response == true)
    {
       $('#request_message').html("Your call request has been submitted.");
-      $('#request_message').fadeTo('normal', 1);
-      $('#request_table').fadeTo('normal', 0);
+      $('#request_table').fadeTo('fast', 0, function() {
+         $('#request_message').fadeTo('normal', 1);
+      });
    }   
 }
