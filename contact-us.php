@@ -6,7 +6,7 @@
          <tr>
             <td width="40%">
                <h1>E-mail</h1>
-               <p>webresponseteam@ns-email.com<br /><br />Messages sent to this address will be automatically routed to the proper department.</p>
+               <p><a href="mailto:webresponseteam@ns-email.com">webresponseteam@ns-email.com</a><br /><br />Messages sent to this address will be automatically routed to the proper department.</p>
                <h1>Telephone</h1>
                <p>1-724-638-7378<br />(1-724-NET-SERV)<br /><br />A live person is available Monday to Friday from 12:00pm to 8:00pm, U.S. Extern Time (except holidays)</p>
                <h1>Postal Mail Address</h1>
