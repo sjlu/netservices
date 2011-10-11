@@ -2,6 +2,7 @@ body {
    margin: 0;
    min-width:1100px;
    font-family: Tahoma, Geneva, sans-serif;
+   text-shadow: 0 1px 1px #ccc;
 }
 
 img
@@ -79,6 +80,16 @@ body#contact-us a#contact-us
    margin-left: 500px;
    background: url(../img/header-request-a-call-box.png) no-repeat;
    width: 370px; height: 120px; 
+}
+
+#home_phrase
+{
+	font-size: 18px;
+}
+
+#home_phrase b
+{
+	font-size: 22px;
 }
 
 input, textarea
@@ -169,12 +180,14 @@ button:focus
 
 #footer_sitemap a
 {
+   color: #4c4c4d;
    text-decoration: none;
 }
 
 #footer_sitemap a:hover,
 #footer_sitemap a:active
 {
+   color: #fff;
    text-decoration: underline;
 }
 

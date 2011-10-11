@@ -5,11 +5,28 @@
 
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
    <script type="text/javascript" src="resources/js/jquery.form.js"></script>
-   <script type="text/javascript" src="resources/js/forms.js"></script>
+   <script type="text/javascript" src="resources/js/forms.call.js"></script>
+   <script type="text/javascript" src="resources/js/forms.message.js"></script>
    <script type="text/javascript" src="resources/js/background-scroller.js"></script>
    <script type="text/javascript" src="resources/js/png-fix.js"></script>
    <script type="text/javascript">
       DD_belatedPNG.fix('.png-fix');
+   </script>
+
+   <script type="text/javascript">
+      $(document).ready(function() {
+         $('#email_us').ajaxForm({
+            dataType: 'json',
+            success: processMsgRequest,
+            beforeSubmit: validateMsgRequest
+         });
+
+         $('#request_call').ajaxForm({
+            dataType: 'json',
+            success: processCallRequest,
+            beforeSubmit: validateCallRequest
+         });
+      });
    </script>
 
    <title>TheNetServices.com</title>

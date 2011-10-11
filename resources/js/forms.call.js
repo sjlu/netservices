@@ -1,12 +1,3 @@
-$(document).ready(function() {
-   $('#request_call').ajaxForm({
-      dataType: 'json',
-      success: processCallRequest,
-      beforeSubmit: validateCallRequest
-   });
-
-});
-
 function showError(message)
 {
    $('#request_message').html("ERROR: "+message);
