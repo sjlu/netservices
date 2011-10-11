@@ -1,5 +1,24 @@
 <div id="footer">
-   <div id="footer_container">
+   
+   <div id="footer_email_us">
+      <b>E-mail Us</b>
+      <div id="requestEmail_message" style="width: 400px; display: none;"></div>
+      <form id="email_us" action="send-message.php" method="post" style="margin-top: 5px">
+         <table id="requestEmail_table" border="0"><tr>
+            <td valign="top">
+               <label>Full Name:</label><input type="text" name="name" id="name" style="width: 320px;" /><br />
+               <label>Phone Number:</label><input type="text" name="number" id="number" style="width: 294px;" /><br />
+               <label>E-mail:</label><input type="text" name="email" id="email" style="width: 343px;" /><br />
+            </td>
+            <td style="padding-left: 40px;">
+               <label style="vertical-align: top">Message:</label><textarea name="message" id="message" style="width: 350px; height: 75px;"></textarea><br />
+               <button type="submit" class="button" id="requestEmail_button" style="background: url(resources/img/send-message-button.png) no-repeat 0 0; height: 22px; width: 102px; margin: 5px 0 0 335px;"></button>
+            </td>
+         </tr></table>
+      </form>
+   </div>
+   
+   <div id="footer_container" style="margin-top: -225px">
       <table id="footer_sitemap" border="0" width="100%">
       <tr>
          <td width="15%" valign="top">
@@ -33,21 +52,4 @@
    <a href="privacy-policy.php">Privacy Policy</a> | <a href="user-agreement.php">User Agreement</a><br />
    <br />
    &copy; NetServices
-</div>
-<div id="footer_email_us">
-   <b>E-mail Us</b>
-   <div id="requestEmail_message" style="width: 400px; display: none;"></div>
-   <form id="email_us" action="send-message.php" method="post" style="margin-top: 5px">
-      <table id="requestEmail_table" border="0"><tr>
-         <td valign="top">
-            <label>Full Name:</label><input type="text" name="name" id="name" style="width: 320px;" /><br />
-            <label>Phone Number:</label><input type="text" name="number" id="number" style="width: 294px;" /><br />
-            <label>E-mail:</label><input type="text" name="email" id="email" style="width: 343px;" /><br />
-         </td>
-         <td style="padding-left: 40px;">
-            <label style="vertical-align: top">Message:</label><textarea name="message" id="message" style="width: 350px; height: 75px;"></textarea><br />
-            <button type="submit" class="button" id="requestEmail_button" style="background: url(resources/img/send-message-button.png) no-repeat 0 0; height: 22px; width: 102px; margin: 5px 0 0 335px;"></button>
-         </td>
-      </tr></table>
-   </form>
 </div>

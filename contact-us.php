@@ -13,6 +13,31 @@
                <p>NetServices, LLC<br />PO Box 750280<br />Forest Hills, NY 11375-0280<br />United States</p>
             </td>
             <td width="60%">
+					<script type="text/javascript" src="resources/js/forms.contact.js"></script>
+               <div id="contactMsgBox">
+                  Send Us a Message
+						<div id="requestContact_message" style="width: 500px; display: none; font-weight: none"></div>
+                     <form id="contact_us" action="send-message.php" method="post" style="margin-top:5px">
+							<table border="0" id="requestContact_table">
+							<tr>
+								<td><label>Full Name:</label></td><td><input type="text" name="name" id="name" style="width: 300px;" /></td>
+							</tr>
+							<tr>
+			            	<td><label>Phone Number:</label></td><td><input type="text" name="number" id="number" style="width: 300px;" /></td>
+							</tr>
+							<tr>
+			            	<td><label>E-mail:</label></td><td><input type="text" name="email" id="email" style="width: 300px;" /></td>
+							</tr>
+							<tr>
+			            	<td><label style="vertical-align: top">Message:</label></td><td><textarea name="message" id="message" style="width: 300px; height: 150px;"></textarea></td>
+							</tr>
+							<tr>
+							<td></td><td><button type="submit" class="button" id="requestContact_button" style="background: url(resources/img/send-message-button.png) no-repeat 0 0; height: 22px; width: 102px; text-align: right;"></button></td>
+							</tr>
+							</table>
+							</form>
+                  </div>
+               </div>
             </td>
          </tr>
       </table>
