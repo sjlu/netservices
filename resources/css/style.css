@@ -40,12 +40,16 @@ p a:hover
    margin: 0 auto;
 }
 
+.topnav
+{
+   font-weight: bold;
+}
+
 #nav{
 	margin: 0;
 	padding: 0;
 	margin-top: 7px;
 	list-style:none;
-	font-weight:bold;
 	/* Clear floats */
 	float:left;
 	width:900px;
@@ -60,7 +64,8 @@ p a:hover
 	margin: 0 5px;
 	display:block;
 	padding: 5px 20px 6px 20px;
-	color:#333;
+	color:#fff;
+   text-shadow: 0 1px 2px #000;
 	text-decoration:none;
 }
 
@@ -68,8 +73,8 @@ body#home a#home,
 body#products-and-services a#products-and-services,
 body#opportunities a#opportunities,
 body#who-we-are a#who-we-are,
-body#contact-us a#contact-us,
-#nav a:hover{
+body#contact-us a#contact-us
+{
 	color:#fff;
 	background-color:#FAC814;
 	text-decoration:none;
@@ -91,23 +96,36 @@ body#contact-us a#contact-us,
 	float:none;
 }
 #nav ul a{
+   font-weight: none;
 	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
 }
 #nav li:hover ul{ /* Display the dropdown on hover */
 	left:-40px; /* Bring back on-screen when needed */
+   min-width: 200px;
 }
 #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
 	background-color:#FAC814;
 	text-decoration:none;
-
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+   border-bottom: 1px solid #fff;
+   text-shadow: 0 0 0;
 }
-#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+#nav li:hover ul a
+{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
 	text-decoration:none;
 }
-#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-	background:#333;
+
+#nav li:hover ul li
+{
+   font-weight: none;
+   -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+   margin-top: -1px;
+}
+
+#nav li:hover ul li a:hover
+{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+   text-shadow: 0 0 0;
+	color: #000;
 }
 
 #logo
@@ -139,6 +157,7 @@ body#contact-us a#contact-us,
 
 input, textarea
 {
+   font-family: Tahoma;
    font: normal 11px/100%;
    letter-spacing: 0.1em;
    background: rgba(255, 255, 255, 0.9);
@@ -221,11 +240,16 @@ button:focus
    color: #4c4c4d;
    font-size: 12pt;
    letter-spacing: 0px;
-   line-height: 22px;
+}
+
+#footer_sitemap br
+{
+   font-size: 25px;
 }
 
 #footer_sitemap a
 {
+   margin-bottom: 50px;
    color: #4c4c4d;
    text-decoration: none;
 }
@@ -264,6 +288,17 @@ button:focus
    font-size: 12px;
    color: #646464;
    text-align: center;
+}
+
+#footer_copyright a
+{
+   text-decoration: none;
+   color: #646464;
+}
+
+#footer_copyright a:hover
+{
+   text-decoration: underline;
 }
 
 .find_out

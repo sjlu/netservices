@@ -9,7 +9,7 @@
 				<img src="resources/img/index-people.jpg" alt="people" />
    		</td>
 			<td id="home_phrase">
-			   <img src="resources/img/homepage-text.jpg" alt="homepage_text" style="margin-left: -10px;" />
+			   <img src="resources/img/homepage-text.png" alt="homepage_text" style="margin-left: -10px;" />
          </td>
 		</tr>
 		</table>
