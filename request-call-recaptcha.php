@@ -1,0 +1,39 @@
+<?php include_once 'include/header.html'; ?>
+<?php require_once('include/recaptchalib.php'); ?>
+<body id="home">
+	<?php include_once 'include/top.html'; ?>
+	<div id="content">
+	   <div style="width: 400px; text-align: center; margin: 20px auto;">
+         <?php if (isset($_GET['verify'])) { ?>
+            <?php
+               $privatekey="6Lcn6cMSAAAAAGty5J_pnZxUY5fKvHcaXDpUbP8";
+               $resp = recaptcha_check_answer ($privatekey, $_SERVER["REMOTE_ADDR"], $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);
+            ?>
+
+            <?php if (!$resp->is_valid) { ?>
+               <strong>Wrong reCAPTCHA entered.</strong><br />
+               Please go back and try again<br /><br />If you are having trouble, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at w e b r e s p o n s e t e a m @ n s - e m a i l .
+            <?php } else { ?>
+               <strong>Your call-request has been sent.</strong><br />
+               If you have any questions or concerns, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at w e b r e s p o n s e t e a m @ n s - e m a i l .
+               <?php include 'request-call.php'; ?>
+            <?php } ?>
+         <?php } else { ?>
+            <strong>Verification</strong><br />
+            For anti-spam purposes, please enter the text in the image into the box, then press submit.<br /><br />
+
+            <form method="post" action="?verify">
+               <input type="hidden" name="name" value="<?php echo $_POST['name']; ?>" />
+               <input type="hidden" name="phone" value="<?php echo $_POST['phone']; ?>" />
+               <input type="hidden" name="email" value="<?php echo $_POST['email']; ?>" />
+               <center><?php
+                  $publickey = "6Lcn6cMSAAAAAMr2kMWehAn8qIlAneqHTny8WklI";
+                  echo recaptcha_get_html($publickey);
+               ?></center>
+               <input type="submit" value="Submit Challenge Answer"/>
+            </form>
+         <?php } ?>
+      </div>
+   </div>
+	<?php include_once 'include/footer.html'; ?>
+</body>

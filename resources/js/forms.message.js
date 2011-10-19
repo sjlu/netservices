@@ -12,14 +12,12 @@ function showMsgError(message)
    });
 }
 
-function validateMsgRequest(formData, jqForm, options)
+function validateMsgRequest()
 {
-   var form = jqForm[0];
-
-   var name = form.name.value;
-   var phone_number = form.number.value;
-   var email = form.email.value;
-   var message = form.message.value;
+   var name = document.forms["email_us"]["name"].value;
+   var phone_number = document.forms["email_us"]["number"]value;
+   var email = document.forms["email_us"]["email"].value;
+   var message = document.forms["email_us"]["message"].value;
 
 	if (name == "")
 	{

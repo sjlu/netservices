@@ -12,13 +12,11 @@ function showError(message)
    });
 }
 
-function validateCallRequest(formData, jqForm, options)
+function validateCallRequest()
 {
-   var form = jqForm[0];
-
-   var name = form.name.value;
-   var phone_number = form.phone.value;
-   var email = form.email.value;
+   var name = document.forms["request_call"]["name"].value;
+   var phone_number = document.forms["request_call"]["phone"].value;
+   var email = document.forms["request_call"]["email"].value;
 
 	if (name == "")
 	{

@@ -3,7 +3,7 @@
    <div id="footer_email_us">
       <b>E-mail Us</b>
       <div id="requestEmail_message" style="width: 400px; display: none;"></div>
-      <form id="email_us" action="send-message.php" method="post" style="margin-top: 5px">
+      <form id="email_us" onsubmit="return validateMsgRequest()" action="send-message-recaptcha.php" method="post" style="margin-top: 5px">
          <table id="requestEmail_table" border="0"><tr>
             <td valign="top">
                <label>Full Name:</label><input type="text" name="name" id="name" style="width: 320px;" /><br />

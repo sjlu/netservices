@@ -1,8 +1,8 @@
 body {
    margin: 0;
    min-width:1100px;
-   font-family: Tahoma, Geneva, sans-serif;
-   text-shadow: 0 1px 1px #ccc;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 0 0 0 transparent, 0 1px 1px #ccc;
 }
 
 img
@@ -64,9 +64,8 @@ p a:hover
 	margin: 0 5px;
 	display:block;
 	padding: 5px 20px 6px 20px;
-	color:#fff;
-   text-shadow: 0 1px 1px #000;
-   filter: dropshadow(color=#ffffff, offx=0, offy=1);
+	color:#fff; 
+   text-shadow: 0 0 0 transparent;
 	text-decoration:none;
 }
 
