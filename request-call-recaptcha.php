@@ -6,7 +6,7 @@
 	   <div style="width: 400px; text-align: center; margin: 20px auto;">
          <?php if (isset($_GET['verify'])) { ?>
             <?php
-               $privatekey="6Lcn6cMSAAAAAGty5J_pnZxUY5fKvHcaXDpUbP8";
+               $privatekey="6LetU8kSAAAAAOQk-Dz2iqinHFRT5XeNk6hDomY-";
                $resp = recaptcha_check_answer ($privatekey, $_SERVER["REMOTE_ADDR"], $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);
             ?>
 
@@ -27,7 +27,7 @@
                <input type="hidden" name="phone" value="<?php echo $_POST['phone']; ?>" />
                <input type="hidden" name="email" value="<?php echo $_POST['email']; ?>" />
                <center><?php
-                  $publickey = "6Lcn6cMSAAAAAMr2kMWehAn8qIlAneqHTny8WklI";
+                  $publickey = "6LetU8kSAAAAAMUHoaAyXgCCjyYa1OCJifNS_768";
                   echo recaptcha_get_html($publickey);
                ?></center>
                <input type="submit" value="Submit Challenge Answer"/>

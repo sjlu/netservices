@@ -45,6 +45,4 @@ $body .= "IP Address of Visitor: " . $_SERVER['REMOTE_ADDR'];
 $mail->Body = $body;
 $mail->AddAddress("webresponseteam@ns-email.com", "NetServices Web-Response Team");
 $mail->Send();
-
-echo 'true';
 ?>
