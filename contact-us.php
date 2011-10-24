@@ -32,7 +32,7 @@
 			            	<td><label style="vertical-align: top">Message:</label></td><td><textarea name="message" id="message" style="width: 300px; height: 150px;"></textarea></td>
 							</tr>
 							<tr>
-							<td></td><td><button type="submit" class="button" id="requestContact_button" style="background: url(resources/img/send-message-button.png) no-repeat 0 0; height: 22px; width: 102px; text-align: right;"></button></td>
+							<td></td><td><button type="submit" class="button_send_message" id="requestContact_button" style="text-align: right;"></button></td>
 							</tr>
 							</table>
 							</form>
