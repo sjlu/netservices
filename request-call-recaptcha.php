@@ -3,7 +3,7 @@
 <body id="home">
 	<?php include_once 'include/top.html'; ?>
 	<div id="content">
-	   <div style="width: 400px; text-align: center; margin: 20px auto;">
+	   <div style="width: 440px; text-align: center; margin: 20px auto;">
          <?php if (isset($_GET['verify'])) { ?>
             <?php
                $privatekey="6LetU8kSAAAAAOQk-Dz2iqinHFRT5XeNk6hDomY-";
@@ -15,7 +15,7 @@
                Please go back and try again<br /><br />If you are having trouble, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at w e b r e s p o n s e t e a m @ n s - e m a i l .
             <?php } else { ?>
                <strong>Your call-request has been sent.</strong><br />
-               If you have any questions or concerns, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at w e b r e s p o n s e t e a m @ n s - e m a i l .
+               If you have any questions or concerns, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at&nbsp;&nbsp;w e b r e s p o n s e t e a m @ n s - e m a i l .
                <?php include 'request-call.php'; ?>
             <?php } ?>
          <?php } else { ?>

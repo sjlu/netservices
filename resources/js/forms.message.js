@@ -15,7 +15,7 @@ function showMsgError(message)
 function validateMsgRequest()
 {
    var name = document.forms["email_us"]["name"].value;
-   var phone_number = document.forms["email_us"]["number"]value;
+   var phone_number = document.forms["email_us"]["number"].value;
    var email = document.forms["email_us"]["email"].value;
    var message = document.forms["email_us"]["message"].value;
 

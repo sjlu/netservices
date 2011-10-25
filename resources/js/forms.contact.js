@@ -14,10 +14,8 @@ function showContactError(message)
 
 function validateContactRequest()
 {
-   var form = jqForm[0];
-
    var name = document.forms["contact_us"]["name"].value;
-   var phone_number = document.forms["contact_us"]["number"]value;
+   var phone_number = document.forms["contact_us"]["number"].value;
    var email = document.forms["contact_us"]["email"].value;
    var message = document.forms["contact_us"]["message"].value;
 
