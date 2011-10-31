@@ -30,7 +30,7 @@
                   $publickey = "6LetU8kSAAAAAMUHoaAyXgCCjyYa1OCJifNS_768";
                   echo recaptcha_get_html($publickey);
                ?></center>
-               <input type="submit" value="Submit Challenge Answer"/>
+               <button type="submit" class="recaptcha_submit" value="Submit Challenge Answer"/>
             </form>
          <?php } ?>
       </div>

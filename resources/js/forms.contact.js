@@ -42,7 +42,7 @@ function validateContactRequest()
       showContactError("You need to provide an email message!");
       return false;
    }
-
+/*
 	var email_syntax = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 	
 	if (email_syntax.test(email) == false)
@@ -63,7 +63,7 @@ function validateContactRequest()
 		showContactError("You need to provide is a 10 digit phone number.");
 		return false;
 	}
-	
+*/	
 	return true;
 }
 

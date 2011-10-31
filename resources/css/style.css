@@ -7,7 +7,7 @@ body {
 
 img
 {
-   border: none;
+   border: 0;
 	z-index: 0;
 }
 
@@ -193,6 +193,9 @@ button
 
 .jquerybox_button
 {
+   display: block;
+   margin-left: 90px;
+   background-position: 0 0;
 	height: 22px; width: 92px;
 	border: 0;
 }
@@ -239,18 +242,18 @@ button
 	background-position: 0 -38px;
 }
 
-.button_recaptcha
+.recaptcha_submit
 {
 	background: url(../img/button-recaptcha-submit.png) no-repeat 0 0;
 	height: 22px; width: 156px;
 }
 
-.button_recaptcha:hover
+.recaptcha_submit:hover
 {
 	background-position: 0 -22px;
 }
 
-.button_recaptcha:active, .button_recaptcha:focus
+.recaptcha_submit:active, .recaptcha_submit:focus
 {
 	background-position: 0 -44px;
 }

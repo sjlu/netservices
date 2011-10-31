@@ -35,7 +35,7 @@ function validateCallRequest()
 		showError("You need to give us an email.");
 		return false;
 	}
-	
+/*	
 	var email_syntax = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 	
 	if (email_syntax.test(email) == false)
@@ -56,7 +56,7 @@ function validateCallRequest()
 		showError("You need to provide is a 10 digit phone number.");
 		return false;
 	}
-	
+*/	
 	return true;
 }
 
