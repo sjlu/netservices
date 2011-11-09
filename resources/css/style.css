@@ -212,50 +212,50 @@ button
 
 .button_send_request
 {
-	background: url(../img/button-send-request.png) no-repeat 0 0;
+	background: url(../img/button-send-request.png) no-repeat 0 -57px;
 	height: 57px; width: 57px;
 }
 
 .button_send_request:hover
 {
-	background-position: 0 -57px;
+	background-position: 0 -114px;
 }
 
 .button_send_request:active, .button_send_request:focus
 {
-	background-position: 0 -114px;
+	background-position: 0 0;
 }
 
 .button_send_message
 {
-	background: url(../img/button-send-message.png) no-repeat 0 0;
+	background: url(../img/button-send-message.png) no-repeat 0 -19px;
 	height: 19px; width: 100px;
 }
 
 .button_send_message:hover
 {
-	background-position: 0 -19px;
+	background-position: 0 -38px;
 }
 
 .button_send_message:active, .button_send_message:focus
 {
-	background-position: 0 -38px;
+	background-position: 0 0px;
 }
 
 .recaptcha_submit
 {
-	background: url(../img/button-recaptcha-submit.png) no-repeat 0 0;
+	background: url(../img/button-recaptcha-submit.png) no-repeat 0 -22px;
 	height: 22px; width: 156px;
 }
 
 .recaptcha_submit:hover
 {
-	background-position: 0 -22px;
+	background-position: 0 -44px;
 }
 
 .recaptcha_submit:active, .recaptcha_submit:focus
 {
-	background-position: 0 -44px;
+	background-position: 0 0;
 }
 
 #content
