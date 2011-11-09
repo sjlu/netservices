@@ -12,10 +12,10 @@
 
             <?php if (!$resp->is_valid) { ?>
                <strong>Wrong reCAPTCHA entered.</strong><br />
-               Please go back and try again<br /><br />If you are having trouble, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at<br/>w e b r e s p o n s e t e a m @ n s - e m a i l .
+               Please go back and try again<br /><br />If you are having trouble, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at<br/>w e b r e s p o n s e t e a m @ n s - e m a i l . c o m
             <?php } else { ?>
                <strong>Your call-request has been sent.</strong><br />
-               If you have any questions or concerns, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at&nbsp;&nbsp;w e b r e s p o n s e t e a m @ n s - e m a i l .
+               If you have any questions or concerns, please contact Support by calling 1-724-NET-SERV (1-724-638-7378) or email us at&nbsp;&nbsp;w e b r e s p o n s e t e a m @ n s - e m a i l . c o m
                <?php include 'request-call.php'; ?>
             <?php } ?>
          <?php } else { ?>
