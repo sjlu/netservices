@@ -1,4 +1,4 @@
-<?php include_once 'include/header.html'; ?>
+<?php include_once 'include/header.php'; ?>
 <?php require_once('include/recaptchalib.php'); ?>
 <body id="home">
 	<?php include_once 'include/top.html'; ?>

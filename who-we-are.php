@@ -1,4 +1,4 @@
-<?php include_once 'include/header.html'; ?>
+<?php include_once 'include/header.php'; ?>
 <body id="who-we-are">
 	<?php include_once 'include/top.html'; ?>
 	<div id="content">
