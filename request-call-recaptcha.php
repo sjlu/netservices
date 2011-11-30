@@ -1,7 +1,7 @@
-<?php include_once 'include/header.php'; ?>
-<?php require_once('include/recaptchalib.php'); ?>
+<?php include_once 'includes/header.php'; ?>
+<?php require_once('includes/recaptchalib.php'); ?>
 <body id="home">
-	<?php include_once 'include/top.html'; ?>
+	<?php include_once 'includes/top.html'; ?>
 	<div id="content">
 	   <div style="width: 440px; text-align: center; margin: 20px auto;">
          <?php if (isset($_GET['verify'])) { ?>
@@ -35,5 +35,5 @@
          <?php } ?>
       </div>
    </div>
-	<?php include_once 'include/footer.html'; ?>
+	<?php include_once 'includes/footer.html'; ?>
 </body>

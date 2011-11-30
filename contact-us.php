@@ -1,6 +1,6 @@
-<?php include_once 'include/header.php'; ?>
+<?php include_once 'includes/header.php'; ?>
 <body id="contact-us">
-	<?php include_once 'include/top.html'; ?>
+	<?php include_once 'includes/top.html'; ?>
 	<div id="content">
       <table border="0">
          <tr>
@@ -42,5 +42,5 @@
          </tr>
       </table>
    </div>
-	<?php include_once 'include/footer.html'; ?>
+	<?php include_once 'includes/footer.html'; ?>
 </body>	

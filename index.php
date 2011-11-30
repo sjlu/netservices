@@ -1,7 +1,7 @@
-<?php include_once 'include/header.php'; ?>
+<?php include_once 'includes/header.php'; ?>
 <body id="home">
-	<?php include_once 'include/top.html'; ?>
-   <?php include_once 'include/boxes.html'; ?>
+	<?php include_once 'includes/top.html'; ?>
+   <?php include_once 'includes/boxes.html'; ?>
 	<div id="content">
       <table cellspacing="0" cellpadding="0" border="0" style="margin-bottom: -53px;">
 		<tr>
@@ -14,5 +14,5 @@
 		</tr>
 		</table>
 	</div>
-	<?php include_once 'include/footer.html'; ?>
+	<?php include_once 'includes/footer.html'; ?>
 </body>

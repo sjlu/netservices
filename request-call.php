@@ -1,5 +1,5 @@
 <?php
-include 'include/class.phpmailer.php';
+include 'includes/class.phpmailer.php';
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
