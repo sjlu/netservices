@@ -1,0 +1,67 @@
+body {
+   margin: 0;
+   min-width:1100px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 0 0 0 transparent, 0 1px 1px #ccc;
+}
+
+#header {
+   background: url(../img/landing_page-header_gradient.png) repeat-x;
+}
+
+#container {
+   background: url(../img/landing_page-body_bg.png) repeat-x;
+   height: 617px;
+   padding-top: 20px;
+   margin-top: -5px;
+}
+
+#content {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+#form {
+   position: absolute;
+   background: url(../img/landing_page-form_bg.png) no-repeat;
+   width: 544px; height: 514px;
+   margin-top: -55px;
+}
+
+#text {
+   position: absolute;
+   background-color: #fff;
+   width: 500px; height: 580px;
+   margin-left: 540px;
+}
+
+#box {
+   position: absolute;
+   background: url(../img/landing_page-grey_box.png);
+   width: 544px; height: 120px;
+   margin-top: 460px;
+}
+
+input, textarea
+{
+   font-family: Tahoma;
+   font: normal 11px/100%;
+   letter-spacing: 0.1em;
+   background: rgba(255, 255, 255, 0.9);
+   background:-moz-linear-gradient(90deg, #fff, #eee);
+   background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #ff));
+   border: 1px solid #aaa;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-box-shadow: 0 0 3px #aaa;
+   -webkit-box-shadow: 0 0 3px #aaa;
+   padding: 4px 6px 4px 6px;
+}
+
+input:focus, textarea:focus
+{
+   border-color: #093c75;
+   -moz-box-shadow: 0 0 3px #0459b7;
+   -webkit-box-shadow: 0 0 3px #0459b7;
+   outline: none;
+}
