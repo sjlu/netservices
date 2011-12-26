@@ -17,7 +17,7 @@ body {
 }
 
 #content {
-   width: 1000px;
+   width: 1050px;
    margin: 0 auto;
 }
 
@@ -31,8 +31,17 @@ body {
 #text {
    position: absolute;
    background-color: #fff;
-   width: 500px; height: 580px;
+   width: 460px; height: 540px;
    margin-left: 540px;
+   padding: 20px;
+   font-size: 11pt;
+}
+
+#text h1
+{
+   text-decoration: bold;
+   line-height: 2px;
+   font-size: 13pt;
 }
 
 #box {
@@ -65,3 +74,48 @@ input:focus, textarea:focus
    -webkit-box-shadow: 0 0 3px #0459b7;
    outline: none;
 }
+
+button
+{
+   border: 0;
+}
+
+.button_submit
+{
+   background: url(../img/button-continue-to-site.png) no-repeat 0 0;
+   height: 22px; width: 135px;
+}
+
+.button_submit:hover
+{
+   background-position: 0 -22px;
+}
+
+.button_submit:active, .button_submit:focus
+{
+   background-position: 0 -44px;
+}
+
+.button_continue
+{
+   background: url(../img/button-request-consultation.png) no-repeat 0 0;
+   height: 22px; width: 157px;
+}
+
+.button_continue:hover
+{
+   background-position: 0 -22px;
+}
+
+.button_continue:active, .button_submit:focus
+{
+   background-position: 0 -44px;
+}
+
+
+
+
+
+
+
+
