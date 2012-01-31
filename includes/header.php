@@ -11,6 +11,8 @@
    <link rel="stylesheet" type="text/css" media="screen" href="resources/css/style.css" />
    <?php endif ?>
 
+   <link rel="stylesheet" href="resources/css/validationEngine.jquery.css" type="text/css" />
+
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
    <script type="text/javascript" src="resources/js/jquery.form.js"></script>
    <script type="text/javascript" src="resources/js/forms.call.js"></script>
@@ -20,6 +22,8 @@
    <script type="text/javascript">
       DD_belatedPNG.fix('.png-fix');
    </script>
+   <script type="text/javascript" src="resources/js/jquery.validationEngine-en.js" charset="utf-8"></script>
+   <script type="text/javascript" src="resources/js/jquery.validationEngine.js" charset="utf-8"></script>
 
    <?php if (file_exists('' . $filename . '.meta')) include '' . $filename . '.meta'; else { ?>
    <title>TheNetServices.com</title>
